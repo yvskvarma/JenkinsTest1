@@ -12,6 +12,9 @@ public class Test1 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 		
+		System.out.println(driver.getTitle());
+		System.out.println(driver.getCurrentUrl());
+		
 		Thread.sleep(5000);		
 		driver.close();		
 	}
