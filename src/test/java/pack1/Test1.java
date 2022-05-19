@@ -12,10 +12,8 @@ public class Test1 {
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.google.com");
 		
-		Thread.sleep(5000);
-		
-		driver.close();
-		
+		Thread.sleep(5000);		
+		driver.close();		
 	}
 
 }
